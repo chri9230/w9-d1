@@ -1,0 +1,39 @@
+.row {
+    padding: 5em;
+}
+
+.card {
+    text-align: center;
+    align-items: stretch;
+    /* min-height: 428px;
+    max-height: 428px; */
+}
+
+/* @media (min-width: 576) {
+    .card {
+        min-height: 428px;
+        max-height: 428px;
+    }
+}
+ */
+.carousel-inner {
+    padding: 5em;
+  }
+
+
+@media (min-width: 768px) {
+    .carousel-control-next {
+        justify-content: flex-end;
+    }
+    .carousel-control-prev {
+        justify-content: flex-start;
+    }
+}
+
+.navbar {
+    background-color: rgb(190, 249, 190);
+}
+  
+.navbar-color {
+    color: black;
+}

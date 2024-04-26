@@ -4,22 +4,18 @@
 
 .card {
     text-align: center;
-    align-items: stretch;
-    /* min-height: 428px;
-    max-height: 428px; */
 }
 
-/* @media (min-width: 576) {
-    .card {
-        min-height: 428px;
-        max-height: 428px;
-    }
+.text-container {
+    min-height: 250px;
+    object-fit: cover;
+    padding-bottom: 0;
+    align-content: center;
 }
- */
+
 .carousel-inner {
     padding: 5em;
   }
-
 
 @media (min-width: 768px) {
     .carousel-control-next {

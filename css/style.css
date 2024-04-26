@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: "Outfit", sans-serif;
+}
+
 .row {
     padding: 5em;
 }
 
 .card {
     text-align: center;
+}
+
+.container {
+    padding-top: 4em;
 }
 
 .text-container {
@@ -28,8 +38,23 @@
 
 .navbar {
     background-color: rgb(190, 249, 190);
+    font-size: 32px;
 }
   
 .navbar-color {
     color: black;
+}
+
+#favAlbums {
+    padding-top: 1em;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+
+}
+
+.sep {
+    border-top: 20px dotted rgb(161, 247, 161);
+    color: rgb(190, 249, 190);
+    
 }
